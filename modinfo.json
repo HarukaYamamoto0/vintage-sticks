@@ -1,0 +1,8 @@
+{
+  "type": "content",
+  "modid": "vintagesticks",
+  "name": "Vintage Sticks",
+  "authors": ["harukadev"],
+  "description": "Adds multiple recipes for crafting sticks from different types of wood",
+  "version": "0.5.0"
+}
