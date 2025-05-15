@@ -23,13 +23,10 @@ Download directly from [Vintage Story Mod Database](https://mods.vintagestory.at
 ## Recipes
 
 ![knife recipe](/.github/images/knife_recipe.png)  
-_Sticks crafted in a crafting table_
 
 ![axe recipe](/.github/images/axe_recipe.png)
-_Sticks produced via sawpit_
 
 ![saw recipe](/.github/images/saw_recipe.png)
-_Sticks created through knapping_
 
 ## Compatibility
 
