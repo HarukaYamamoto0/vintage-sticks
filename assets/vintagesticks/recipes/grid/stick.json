@@ -1,0 +1,65 @@
+[
+  {
+    "ingredientPattern": "S,F",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:saw-*",
+        "isTool": true
+      },
+      "F": {
+        "type": "item",
+        "code": "game:firewood"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:stick",
+      "quantity": 2
+    },
+    "width": 1,
+    "height": 2
+  },
+  {
+    "ingredientPattern": "K,F",
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "F": {
+        "type": "item",
+        "code": "game:firewood"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:stick",
+      "quantity": 2
+    },
+    "width": 1,
+    "height": 2
+  },
+  {
+    "ingredientPattern": "A,F",
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:axe-*",
+        "isTool": true
+      },
+      "F": {
+        "type": "item",
+        "code": "game:firewood"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:stick",
+      "quantity": 2
+    },
+    "width": 1,
+    "height": 2
+  }
+]

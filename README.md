@@ -1,69 +1,54 @@
 # VintageSticks
 
-## Visão Geral
+VintageSticks is a simple content mod for Vintage Story that adds crafting recipes to create sticks directly from wood. Surprisingly, the base game lacks a straightforward method to craft this fundamental item, and this mod fills that gap with intuitive recipes.
 
-VintageSticks é um mod simples para Vintage Story que adiciona receitas para criação de varas (sticks) diretamente da madeira. Surpreendentemente, o jogo base não possui uma maneira direta de criar este item fundamental, então este mod resolve essa lacuna com algumas receitas intuitivas.
+## Features
 
-## Características
+- Adds multiple recipes to craft sticks from different wood types
+- Balanced with existing gameplay mechanics
+- Does not alter any other aspects of the game
 
-- Adiciona múltiplas receitas para criar varas a partir de diferentes tipos de madeira
-- Balanceado com o gameplay existente
-- Não altera nenhum outro aspecto do jogo
-- Totalmente configurável
+## Installation
 
-## Instalação
+**Official ModDB Page**:  
+Download directly from [Vintage Story Mod Database](https://mods.vintagestory.at/show/mod/2386354654)
 
-1. Certifique-se de ter o Vintage Story instalado
-2. Baixe o arquivo .zip mais recente da página de lançamentos
-3. Coloque o arquivo .zip na pasta "Mods" do seu diretório de jogo
-4. Inicie o jogo e ative o mod no menu de mods
+**Manual Installation**:
 
-## Receitas
+1. Ensure Vintage Story version 1.20.10 (or newer) is installed.
+2. Download the latest `.zip` file from the [Releases](https://github.com/HarukaYamamoto0/vintage-sticks/releases) page.
+3. Place the `.zip` file into your Vintage Story `Mods` folder (located in your game directory).
+4. Launch the game and enable the mod in the Mod Manager.
 
-Este mod adiciona as seguintes receitas para criar varas:
+## Recipes
 
-### Tábua para Varas
+![knife recipe](/.github/images/knife_recipe.png)  
+_Sticks crafted in a crafting table_
 
-Coloque uma tábua de qualquer tipo de madeira na grade de crafting para obter 2 varas.
+![axe recipe](/.github/images/axe_recipe.png)
+_Sticks produced via sawpit_
 
-### Tronco para Varas
+![saw recipe](/.github/images/saw_recipe.png)
+_Sticks created through knapping_
 
-Coloque um tronco de qualquer tipo de madeira na grade de crafting para obter 4 varas.
+## Compatibility
 
-### Galho para Varas
+- Compatible with Vintage Story **1.20.10 (stable)** and newer versions.
+- No known conflicts with popular mods. Full compatibility with other mods is not guaranteed.
 
-Use uma faca em um galho coletado para obter 1 vara.
+## Contributing
 
-## Configuração
+Contributions are welcome! Feel free to:
 
-O arquivo `config.json` permite ajustar:
+- Report bugs or suggest features via [GitHub Issues](https://github.com/HarukaYamamoto0/vintage-sticks/issues).
+- Submit improvements via Pull Requests.
 
-- Quantidade de varas produzidas por receita
-- Habilitar/desabilitar receitas específicas
-- Tempo de crafting de cada receita
+## License
 
-## Compatibilidade
+This mod is licensed under the [MIT License](./LICENSE).
 
-O mod é compatível com a versão 1.18.x do Vintage Story. Compatibilidade com outros mods não é garantida, mas não deve haver conflitos com a maioria dos mods populares.
+## Credits
 
-## Planos Futuros
+Special thanks to **[Uparu](https://mods.vintagestory.at/show/user/dbba85516357579f0267)** for inspiring this mod with their original **[Create Sticks](https://mods.vintagestory.at/show/mod/23863)**. VintageSticks is a refined remake of their concept.
 
-- Adicionar mais variações de receitas
-- Implementar texturas personalizadas para varas de diferentes tipos de madeira
-- Adicionar novos usos para varas
-
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests no GitHub.
-
-## Licença
-
-Este mod é disponibilizado sob a licença MIT.
-
-## Créditos
-
-Desenvolvido por [Seu Nome]
-
----
-
-_"A vara pode parecer simples, mas é o começo de todas as grandes construções."_
+_"A stick may seem simple, but it is the foundation of all great creations."_

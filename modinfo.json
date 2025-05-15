@@ -3,6 +3,7 @@
   "modid": "vintagesticks",
   "name": "Vintage Sticks",
   "authors": ["harukadev"],
-  "description": "Adds multiple recipes for crafting sticks from different types of wood",
-  "version": "0.5.0"
+  "description": "Adds a recipe for crafting kindling from firewood",
+  "version": "1.0.0",
+  "icon": "icon.svg"
 }
