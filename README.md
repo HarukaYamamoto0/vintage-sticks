@@ -11,7 +11,7 @@ VintageSticks is a simple content mod for Vintage Story that adds crafting recip
 ## Installation
 
 **Official ModDB Page**:  
-Download directly from [Vintage Story Mod Database](https://mods.vintagestory.at/show/mod/2386354654)
+Download directly from [Vintage Story Mod Database](https://mods.vintagestory.at/vintagesticks)
 
 **Manual Installation**:
 
