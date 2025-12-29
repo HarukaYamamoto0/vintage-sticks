@@ -1,0 +1,15 @@
+{
+  "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+  "type": "Content",
+  "modid": "vintagesticks",
+  "name": "Vintage Sticks",
+  "description": "It adds simple and balanced recipes for transforming firewood and other materials into kindling.",
+  "version": "2.0.1",
+  "authors": ["harukadev"],
+  "side": "Universal",
+  "dependencies": {
+    "game": "1.21.0"
+  },
+  "website": "https://harukadev.com/projects/vintagesticks",
+  "iconPath": "modicon.png"
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "ingredientPattern": "K,F",
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true,
+        "toolDurabilityCost": 3
+      },
+      "F": {
+        "type": "item",
+        "code": "game:firewood"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:stick",
+      "quantity": 1
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "K,P",
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true,
+        "toolDurabilityCost": 3
+      },
+      "P": {
+        "type": "item",
+        "code": "game:plank-*"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:stick",
+      "quantity": 2
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "A,F",
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:axe-*",
+        "isTool": true,
+        "toolDurabilityCost": 4
+      },
+      "F": {
+        "type": "item",
+        "code": "game:firewood"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:stick",
+      "quantity": 2
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "A,P",
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "game:axe-*",
+        "isTool": true,
+        "toolDurabilityCost": 4
+      },
+      "P": {
+        "type": "item",
+        "code": "game:plank-*"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:stick",
+      "quantity": 3
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "S,F",
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:saw-*",
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "F": {
+        "type": "item",
+        "code": "game:firewood"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:stick",
+      "quantity": 3
+    },
+    "recipeGroup": 1
+  },
+  {
+    "ingredientPattern": "S,P",
+    "width": 1,
+    "height": 2,
+    "shapeless": true,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:saw-*",
+        "isTool": true,
+        "toolDurabilityCost": 5
+      },
+      "P": {
+        "type": "item",
+        "code": "game:plank-*"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "game:stick",
+      "quantity": 4
+    },
+    "recipeGroup": 1
+  }
+]

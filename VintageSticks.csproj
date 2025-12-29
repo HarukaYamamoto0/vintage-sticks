@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Version>2.0.1</Version>
+        <ModVersion>$(Version)</ModVersion>
+        <ZipName>vintage_sticks</ZipName>
+
+        <!-- Disable code compilation. -->
+        <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+        <EnableDefaultItems>false</EnableDefaultItems>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+        <GenerateDependencyFile>false</GenerateDependencyFile>
+        <CopyBuildOutputToOutputDirectory>false</CopyBuildOutputToOutputDirectory>
+        <CopyOutputSymbolsToOutputDirectory>false</CopyOutputSymbolsToOutputDirectory>
+
+        <TargetFramework>net8.0</TargetFramework>
+        <OutputPath>artifacts/$(Configuration)/Mods/</OutputPath>
+        <ReleaseDir>$(ProjectDir)Releases</ReleaseDir>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="modinfo.json" CopyToOutputDirectory="PreserveNewest"/>
+        <Content Include="modicon.png" CopyToOutputDirectory="PreserveNewest"/>
+        <Content Include="assets/**/*.*" CopyToOutputDirectory="PreserveNewest" LinkBase="assets/"/>
+        <Content Include="README.md" Condition="Exists('README.md')" CopyToOutputDirectory="PreserveNewest"/>
+        <Content Include="LICENSE" Condition="Exists('LICENSE')" CopyToOutputDirectory="PreserveNewest"/>
+    </ItemGroup>
+
+    <Target Name="ZipMod" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
+        <MakeDir Directories="$(ReleaseDir)"/>
+        <PropertyGroup>
+            <ZipFile>$(ReleaseDir)/$(ZipName)_v$(ModVersion).zip</ZipFile>
+        </PropertyGroup>
+        <Message Text="Zipping $(OutputPath) -> $(ZipFile)" Importance="High"/>
+        <ZipDirectory SourceDirectory="$(OutputPath)" DestinationFile="$(ZipFile)" Overwrite="true"/>
+    </Target>
+
+</Project>
